@@ -10,4 +10,8 @@ class Note extends Model
 {
     use HasFactory,HasUuids;
 
+    protected $fillable=[
+        ''
+    ];
+
 }
